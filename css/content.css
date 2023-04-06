@@ -1,0 +1,82 @@
+
+body {
+    background-color: #ffff99;
+  }
+  
+  #container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .column1-container {
+    width: 40%;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul > li p {
+    float: right;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .full-column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 1000px; /* Should be removed. Only for demonstration */
+    background-color: #ffffff;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  header {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 12px 12px 12px #404040;
+    text-align: center;
+  }
+  
+  nav {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-top: 5px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
+  }
+  
+  main {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffff99;
+    box-shadow: 12px 12px 12px #404040;
+  }
+  
+  footer {
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 20px;
+  }
+  

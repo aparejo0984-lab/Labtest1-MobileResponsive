@@ -1,0 +1,130 @@
+
+body {
+  background-color: #ffff99;
+}
+
+#container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column1-container {
+  width: 40%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul > li p {
+  float: right;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+  background-color: #ffffff;
+}
+
+/* Create two equal columns that floats next to each other */
+.full-column {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: 1000px; /* Should be removed. Only for demonstration */
+  background-color: #ffffff;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 12px 12px 12px #404040;
+  text-align: center;
+}
+
+nav {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border-top: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+}
+
+main {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffff99;
+  box-shadow: 12px 12px 12px #404040;
+}
+
+footer {
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+
+.abount-column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.title {
+  color: #ffff99;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
